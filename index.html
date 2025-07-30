@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devfolio - A software engineer portfolio</title>
+    <meta name="title" content="Devfolio - A software engineer portfolio">
+    <meta name="description" content="This is a personal portfolio made by me">
+    <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="topbar">
+        <a href="#" class="logo">
+            <img src="/assets/images/Logo_dark.png" alt="Devfolio" width="145" height="32" class="dark">
+            <img src="/assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light">
+        </a>
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+            <div class="state-layer"></div>
+        </button>
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero">
+                <div class="container">
+                    <figure class="hero-banner img-holder" style="--width:240; --height:240;">
+                        <img src="/assets/images/profile.jpg" alt="Khushboo Agarwal" class="img-cover">
+                    </figure>
+
+                    <div class="hero-content">
+                        <span class="label-large section-subtitle">Frontend Developer</span>
+                        <h1 class="display-small" style="text-align: center;">Khushboo Agarwal</h1>
+                        <!-- <p class="body-large section-text">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore alias fuga repellat perferendis cupiditate? Similique ipsum dolorem assumenda laboriosam.
+                        </p> -->
+
+                        <div class="btn-wrapper">
+                            <a href="mailto:contact.khushbooagarwal@gmail.com" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                <span class="label-large">contact.khushbooagarwal@gmail.com</span>
+                                <div class="state-layer"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/khushbooagarwall" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> <i class="ri-linkedin-box-fill"></i></span>
+                                <span class="label-large">linkedin.com/in/khushbooagarwall</span>
+                                <div class="state-layer"></div>
+                            </a>
+                            <a href="https://github.com/KhushbooAgarwall" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> <i class="ri-github-fill"></i></span>
+                                <span class="label-large">github.com/KhushbooAgarwall</span>
+                                <div class="state-layer"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="article">
+                <div class="about-card">
+                    <h2 class="card-title title-medium">About</h2>
+                    <p class="body-medium card-text">
+                        Hello! I'm a Frontend Web Developer with a Master of Computer Applications (MCA) degree from the University of 
+                        Rajasthan.Skilled in building responsive web applications using JavaScript and Tailwind CSS, with working knowledge of React.js 
+                        and RESTful APIs. Passionate about creating user-friendly interfaces and eager to contribute to innovative tech projects. 
+                    </p>
+                    <ul class="about-list">
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                            <span class="label-medium">Jaipur, Rajasthan</span>
+                        </li>
+                        <!-- <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+                            <span class="label-medium">Company Name</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                            <a href="#" class="label-medium">My site link</a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="primary-tabs">
+                        <button class="tab-btn active" data-tab-btn="project">
+                            <span class="tab-text title-small">Projects</span>
+                            <div class="state-layer"></div>
+                        </button>
+                        <button class="tab-btn" data-tab-btn="resume">
+                            <span class="tab-text title-small">Resume</span>
+                            <div class="state-layer"></div>
+                        </button>
+                        <button class="tab-btn" data-tab-btn="contact">
+                            <span class="tab-text title-small">Contact</span>
+                            <div class="state-layer"></div>
+                        </button>
+                    </div>
+    
+                    <section class="section tab-content active" data-tab-content="project">
+                        <div class="container">
+                            <div class="project-list">
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-1.png" alt="News Web App" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">News Web App</h3>
+                                    </div>
+                                    <a href="https://news-web-app-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-2.jpg" alt="Premier Model Management" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Premier Model Management</h3>
+                                    </div>
+                                    <a href="https://premier-model-management-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-3.jpg" alt="Dribbble Landing Page" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Dribbble Landing Page</h3>
+                                    </div>
+                                    <a href="https://dribbble-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-4.jpg" alt="Microsoft Account Clone" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Microsoft Account Clone</h3>
+                                    </div>
+                                    <a href="https://micro-soft-signin-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-5.jpg" alt="Job Portal" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Job Portal</h3>
+                                    </div>
+                                    <a href="https://github.com/KhushbooAgarwall/job_portal" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-6.png" alt="Count Down" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Count Down</h3>
+                                    </div>
+                                    <a href="https://count-down-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-7.png" alt="Stop Watch" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Stop Watch</h3>
+                                    </div>
+                                    <a href="https://stopwatch-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-8.png" alt="Quote Generator" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Quote Generator</h3>
+                                    </div>
+                                    <a href="https://quote-generator-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-9.png" alt="Tour Travel" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Tour Travel</h3>
+                                    </div>
+                                    <a href="https://tourtravel-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180;">
+                                        <img src="/assets/images/project-10.png" alt="Text To Speech Converter" width="334" height="180" class="img-cover">
+                                    </figure>
+                                    <div class="card-content">
+                                        <sapn class="label-large card-subtitle">Website</sapn>
+                                        <h3 class="title-large card-title">Text To Speech Converter</h3>
+                                    </div>
+                                    <a href="https://text-to-speech-converter-kb.netlify.app/" class="state-layer"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section class="section tab-content resume-tab" data-tab-content="resume">
+                        <div class="container">
+                            <h2 class="section-title tilte-small">Experience</h2>
+                            <ul class="list">
+                                <!-- <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Frontend Developer, Company Name</p>
+                                        <span class="label-medium card-subtitle">2025 - Present</span>
+                                        <span class="body-medium card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                    </div>
+                                </li> -->
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Contributor, Open Source Connect</p>
+                                        <span class="label-medium card-subtitle">July 2025 – Present</span>
+                                        <span class="body-medium card-text">Actively contributed to real-world open-source projects on the NexFellow platform, working closely with mentors and project teams.</span>
+                                    </div>
+                                </li>
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Full Stack Web Developer Intern, Quirinus Soft Pvt. Ltd.</p>
+                                        <span class="label-medium card-subtitle">Apr 2024 – Jun 2024</span>
+                                        <span class="body-medium card-text">Designed and developed a full-stack job portal enabling seamless interaction between job seekers and employers.</span>
+                                    </div>
+                                </li>
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Web Developor Intern, Prodigy InfoTech</p>
+                                        <span class="label-medium card-subtitle"> Nov 2023 – Dec 2023</span>
+                                        <span class="body-medium card-text">Gained practical knowledge of front-end development and responsive design. Completed assigned tasks independently in a remote work environment.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                            <h2 class="section-title tilte-small">Education</h2>
+                            <ul class="list">
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Master's in Computer Application, University of Rajasthan </p>
+                                        <span class="label-medium card-subtitle">Jul 2022 – Aug 2024</span>
+                                    </div>
+                                </li>
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Bachelor's in Computer Application, S.S. Jain Subodh Girls P.G. College </p>
+                                        <span class="label-medium card-subtitle">Jul 2019 – Aug 2022</span>
+                                    </div>
+                                </li>
+                            </ul>
+    
+                            <h2 class="section-title tilte-small">Skills and Technologies</h2>
+                            <ul class="resume-bottom-list">
+                                <li class="resume-bottom-item">
+                                    <img src="/assets/images/html5.svg" alt="HTML5" width="28" height="28" loading="lazy" class="icon">
+                                    <span class="label-medium">HTML5</span>
+                                </li>
+                                <li class="resume-bottom-item">
+                                    <img src="/assets/images/css3.svg" alt="CSS3" width="28" height="28" loading="lazy" class="icon">
+                                    <span class="label-medium">CSS3</span>
+                                </li>
+                                <li class="resume-bottom-item">
+                                    <img src="/assets/images/javascript.svg" alt="JavaScript" width="28" height="28" loading="lazy" class="icon">
+                                    <span class="label-medium">JavaScript</span>
+                                </li>
+                                <li class="resume-bottom-item">
+                                    <img src="/assets/images/react.js.svg" alt="React.js" width="28" height="28" loading="lazy" class="icon">
+                                    <span class="label-medium">React.js</span>
+                                </li>
+                                <li class="resume-bottom-item">
+                                    <span class="icon" loading="lazy"> <i class="ri-github-fill"></i> </span>
+                                    <span class="label-medium">GitHub</span>
+                                </li>
+                                <li class="resume-bottom-item">
+                                    <img src="/assets/images/VS_code.svg" alt="VS Code" width="28" height="28" loading="lazy" class="icon">
+                                    <span class="label-medium">VS Code</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+    
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
+                        <div class="container">
+                            <div class="contact-info">
+                                <h4 class="section-title title-small">Contact Info</h4>
+    
+                                <ul class="contact-info-list">
+                                    <li class="contact-info-item">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                        </div>
+                                        <div class="info-content">
+                                            <p class="label-small info-title">E-Mail</p>
+                                            <a href="mailto:contact.khushbooagarwal@gmail.com" class="label-small info-text">contact.khushbooagarwal@gmail.com</a>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="contact-info-item">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                        </div>
+                                        <div class="info-content">
+                                            <p class="label-small info-title">Location</p>
+                                            <a href="#" class="label-small info-text">Jaipur, Rajasthan</a>
+                                        </div>
+                                    </li>
+                                </ul>
+    
+                                <h4 class="title-small">Social Info</h4>
+                                <div class="social-list">
+                                    <a href="https://www.linkedin.com/in/khushbooagarwall" class="social-item"> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="https://github.com/KhushbooAgarwall" class="social-item"> <i class="ri-github-fill"></i> </a>
+                                </div>
+                            </div>
+    
+                            <div class="contact-form">
+                                <h3 class="title-large">Let’s Work Together.</h3>
+                                <form action="" method="post" class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Name*" required class="input-field">
+                                    <input type="email" name="email" placeholder="Email*" required class="input-field">
+                                    <input type="text" name="subject" placeholder="Subject" class="input-field">
+                                    <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
+                                    <button class="btn" type="submit">
+                                        <span class="label-large">Send Message</span>
+                                        <div class="state-layer"></div>
+                                    </button>
+                                </form>
+                            </div>
+    
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="body-medium">
+                Copyright &#169; 2025 Khushboo Agarwal. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
