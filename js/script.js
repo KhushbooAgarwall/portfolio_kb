@@ -36,3 +36,25 @@ $tabBtn.forEach(item => {
         lastActiveTabBtn = this;
     });
 });
+
+// Email
+document.addEventListener("DOMContentLoaded", function () {
+  emailjs.init("LHrh_WnAcgENWNsYo");
+
+  const form = document.querySelector(".input-wrapper");
+
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_khi1txj", "template_0ydvf9k", this)
+        .then(function (response) {
+          alert("Message sent successfully!");
+          form.reset();
+        }, function (error) {
+          alert("Failed to send message. Please try again later.");
+          console.error("EmailJS Error:", error);
+        });
+    });
+  }
+});

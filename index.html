@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devfolio - A Frontend Developer Portfolio</title>
-    <meta name="title" content="Devfolio - A Frontend Developer portfolio">
+    <title>Devfolio - A Front-End Developer Portfolio</title>
+    <meta name="title" content="Devfolio - A Front-End Developer portfolio">
     <meta name="description" content="This is a personal portfolio made by Khushboo Agarwal">
     <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,8 +21,8 @@
             <img src="/assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light">
         </a>
         <button class="icon-btn theme-btn" data-theme-btn>
-            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
-            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> <i class="ri-moon-line"></i> </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> <i class="ri-sun-line"></i> </span>
             <div class="state-layer"></div>
         </button>
     </header>
@@ -32,11 +32,11 @@
             <section class="section hero">
                 <div class="container">
                     <figure class="hero-banner img-holder" style="--width:240; --height:240;">
-                        <img src="/assets/images/profile.jpg" alt="Khushboo Agarwal" class="img-cover">
+                        <img src="/assets/images/profile.webp" alt="Khushboo Agarwal" class="img-cover">
                     </figure>
 
                     <div class="hero-content">
-                        <span class="label-large section-subtitle">Frontend Developer</span>
+                        <span class="label-large section-subtitle">Front-End Developer</span>
                         <h1 class="display-small" style="text-align: center;">Khushboo Agarwal</h1>
                         <!-- <p class="body-large section-text">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore alias fuga repellat perferendis cupiditate? Similique ipsum dolorem assumenda laboriosam.
@@ -67,8 +67,8 @@
                 <div class="about-card">
                     <h2 class="card-title title-medium">About</h2>
                     <p class="body-medium card-text">
-                        Hello! I'm a Frontend Web Developer with a Master of Computer Applications (MCA) degree from the University of 
-                        Rajasthan.Skilled in building responsive web applications using JavaScript and Tailwind CSS, with working knowledge of React.js 
+                        Hello! I'm a Front-End Web Developer with a Master of Computer Applications (MCA) degree from the University of 
+                        Rajasthan. Skilled in building responsive web applications using JavaScript and Tailwind CSS, with working knowledge of React.js 
                         and RESTful APIs. Passionate about creating user-friendly interfaces and eager to contribute to innovative tech projects. 
                     </p>
                     <ul class="about-list">
@@ -224,8 +224,15 @@
                                 <li class="resume-item">
                                     <div class="resume-card">
                                         <p class="body-large">Contributor, Open Source Connect</p>
+                                        <span class="label-medium card-subtitle">Aug 2025 – Present</span>
+                                        <span class="body-medium card-text">Actively contributing to real-world open-source projects on the NexFellow platform, working closely with mentors and project teams.</span>
+                                    </div>
+                                </li>
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">Contributor, GirlScript Summer of Code</p>
                                         <span class="label-medium card-subtitle">July 2025 – Present</span>
-                                        <span class="body-medium card-text">Actively contributed to real-world open-source projects on the NexFellow platform, working closely with mentors and project teams.</span>
+                                        <span class="body-medium card-text">Contributing to open-source development initiatives on the Discord platform, working in coordination with mentors and cross-functional teams.</span>
                                     </div>
                                 </li>
                                 <li class="resume-item">
@@ -260,7 +267,7 @@
                                 </li>
                             </ul>
     
-                            <h2 class="section-title tilte-small">Skills and Technologies</h2>
+                            <h2 class="section-title tilte-small">Skills and Tools</h2>
                             <ul class="resume-bottom-list">
                                 <li class="resume-bottom-item">
                                     <img src="/assets/images/html5.svg" alt="HTML5" width="28" height="28" loading="lazy" class="icon">
@@ -354,5 +361,7 @@
     </footer>
 
     <script src="/js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </body>
 </html>

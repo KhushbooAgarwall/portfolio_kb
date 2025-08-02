@@ -510,6 +510,11 @@ body{
   z-index: 4;
 }
 
+.logo{
+  margin-left: 20px;
+}
+
+
 [data-theme = 'dark'] .logo .light,
 [data-theme = 'light'] .logo .dark{
   display: none;
@@ -526,6 +531,10 @@ body{
   border-radius: var(--radius-full);
   overflow: hidden;
 }
+
+/* .theme-btn span{
+  display: flex;
+} */
 
 [data-theme = 'dark'] .theme-btn .dark,
 [data-theme = 'light'] .theme-btn .light{
@@ -554,7 +563,6 @@ body{
 
 .hero .section-subtitle{
   color: var(--on-surface-variant);
-  justify-self: center;
   text-align: center;
   margin-bottom: 10px;
 }
