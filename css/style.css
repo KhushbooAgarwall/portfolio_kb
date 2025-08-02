@@ -532,9 +532,9 @@ body{
   overflow: hidden;
 }
 
-/* .theme-btn span{
+.theme-btn span{
   display: flex;
-} */
+}
 
 [data-theme = 'dark'] .theme-btn .dark,
 [data-theme = 'light'] .theme-btn .light{
